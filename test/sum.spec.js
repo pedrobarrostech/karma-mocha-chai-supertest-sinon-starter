@@ -1,4 +1,4 @@
-import assert from 'power-assert';
+import { expect, assert, should } from 'chai';
 import sum from '../src/sum';
 
 describe("sum", () => {
@@ -6,4 +6,3 @@ describe("sum", () => {
     assert(sum(2, 2) === 4);
   });
 });
-
