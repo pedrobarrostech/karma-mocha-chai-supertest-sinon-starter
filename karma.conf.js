@@ -69,13 +69,14 @@ module.exports = function(config) {
     browsers: ['Chrome'],
 
     plugins: [
-        'karma-chai-http',
-        'karma-chai-plugins',
+        'karma-chai',
         'karma-mocha',
         'karma-browserify',
+        'karma-sinon',
+        'karma-chai-http',
+        'karma-chai-plugins',
         'karma-chrome-launcher',
-        'karma-mocha-reporter',
-        'karma-sinon'
+        'karma-mocha-reporter'        
     ],
 
     // Continuous Integration mode
