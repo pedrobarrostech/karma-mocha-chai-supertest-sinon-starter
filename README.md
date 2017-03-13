@@ -1,6 +1,6 @@
 # karma-mocha-chai-supertest-sinon-starter
 
-Karmer runner with Mocha, Chai, Sinon e Supertest and allows you to test ES6 (with Browserify and Babel)
+Karmer runner with Mocha, Chai, Sinon and Supertest and allows you to test ES6 (with Browserify and Babel)
 
 ## Clone the repo:
 
