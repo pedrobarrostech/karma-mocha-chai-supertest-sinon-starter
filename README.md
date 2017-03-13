@@ -11,7 +11,11 @@ cd karma-mocha-chai-supertest-sinon-starter
 ```sh
 npm install
 ```
+
+
+
 ## Running:
+https://github.com/chaijs/chai-http/issues/117 Before run we need correct the node_modules/chai-http/index.js as said in the issue.
 ```sh
 npm test
 ```
